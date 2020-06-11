@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420EBDD724929FBF001CB93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EBDD624929FBF001CB93A /* AppDelegate.swift */; };
+		420EBDDD24929FC2001CB93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420EBDDC24929FC2001CB93A /* Assets.xcassets */; };
+		420EBDE024929FC2001CB93A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420EBDDF24929FC2001CB93A /* Preview Assets.xcassets */; };
+		420EBDE324929FC2001CB93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420EBDE124929FC2001CB93A /* LaunchScreen.storyboard */; };
+		420EBDEE24929FC2001CB93A /* vflLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EBDED24929FC2001CB93A /* vflLoginTests.swift */; };
+		420EBDF92492A085001CB93A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EBDF82492A085001CB93A /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		420EBDEA24929FC2001CB93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420EBDCB24929FBF001CB93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420EBDD224929FBF001CB93A;
+			remoteInfo = vflLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420EBDD324929FBF001CB93A /* vflLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vflLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EBDD624929FBF001CB93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		420EBDDC24929FC2001CB93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420EBDDF24929FC2001CB93A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		420EBDE224929FC2001CB93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420EBDE424929FC2001CB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420EBDE924929FC2001CB93A /* vflLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vflLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EBDED24929FC2001CB93A /* vflLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vflLoginTests.swift; sourceTree = "<group>"; };
+		420EBDEF24929FC2001CB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420EBDF82492A085001CB93A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420EBDD024929FBF001CB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420EBDE624929FC2001CB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420EBDCA24929FBF001CB93A = {
+			isa = PBXGroup;
+			children = (
+				420EBDD524929FBF001CB93A /* vflLogin */,
+				420EBDEC24929FC2001CB93A /* vflLoginTests */,
+				420EBDD424929FBF001CB93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420EBDD424929FBF001CB93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420EBDD324929FBF001CB93A /* vflLogin.app */,
+				420EBDE924929FC2001CB93A /* vflLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420EBDD524929FBF001CB93A /* vflLogin */ = {
+			isa = PBXGroup;
+			children = (
+				420EBDD624929FBF001CB93A /* AppDelegate.swift */,
+				420EBDDC24929FC2001CB93A /* Assets.xcassets */,
+				420EBDE124929FC2001CB93A /* LaunchScreen.storyboard */,
+				420EBDE424929FC2001CB93A /* Info.plist */,
+				420EBDDE24929FC2001CB93A /* Preview Content */,
+				420EBDF82492A085001CB93A /* LoginViewController.swift */,
+			);
+			path = vflLogin;
+			sourceTree = "<group>";
+		};
+		420EBDDE24929FC2001CB93A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				420EBDDF24929FC2001CB93A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		420EBDEC24929FC2001CB93A /* vflLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				420EBDED24929FC2001CB93A /* vflLoginTests.swift */,
+				420EBDEF24929FC2001CB93A /* Info.plist */,
+			);
+			path = vflLoginTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420EBDD224929FBF001CB93A /* vflLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420EBDF224929FC2001CB93A /* Build configuration list for PBXNativeTarget "vflLogin" */;
+			buildPhases = (
+				420EBDCF24929FBF001CB93A /* Sources */,
+				420EBDD024929FBF001CB93A /* Frameworks */,
+				420EBDD124929FBF001CB93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vflLogin;
+			productName = vflLogin;
+			productReference = 420EBDD324929FBF001CB93A /* vflLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		420EBDE824929FC2001CB93A /* vflLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420EBDF524929FC2001CB93A /* Build configuration list for PBXNativeTarget "vflLoginTests" */;
+			buildPhases = (
+				420EBDE524929FC2001CB93A /* Sources */,
+				420EBDE624929FC2001CB93A /* Frameworks */,
+				420EBDE724929FC2001CB93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420EBDEB24929FC2001CB93A /* PBXTargetDependency */,
+			);
+			name = vflLoginTests;
+			productName = vflLoginTests;
+			productReference = 420EBDE924929FC2001CB93A /* vflLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420EBDCB24929FBF001CB93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Joshua;
+				TargetAttributes = {
+					420EBDD224929FBF001CB93A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					420EBDE824929FC2001CB93A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 420EBDD224929FBF001CB93A;
+					};
+				};
+			};
+			buildConfigurationList = 420EBDCE24929FBF001CB93A /* Build configuration list for PBXProject "vflLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420EBDCA24929FBF001CB93A;
+			productRefGroup = 420EBDD424929FBF001CB93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420EBDD224929FBF001CB93A /* vflLogin */,
+				420EBDE824929FC2001CB93A /* vflLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420EBDD124929FBF001CB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420EBDE324929FC2001CB93A /* LaunchScreen.storyboard in Resources */,
+				420EBDE024929FC2001CB93A /* Preview Assets.xcassets in Resources */,
+				420EBDDD24929FC2001CB93A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420EBDE724929FC2001CB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420EBDCF24929FBF001CB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420EBDF92492A085001CB93A /* LoginViewController.swift in Sources */,
+				420EBDD724929FBF001CB93A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420EBDE524929FC2001CB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420EBDEE24929FC2001CB93A /* vflLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420EBDEB24929FC2001CB93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420EBDD224929FBF001CB93A /* vflLogin */;
+			targetProxy = 420EBDEA24929FC2001CB93A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		420EBDE124929FC2001CB93A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420EBDE224929FC2001CB93A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420EBDF024929FC2001CB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		420EBDF124929FC2001CB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420EBDF324929FC2001CB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"vflLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = L9R572YACD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = vflLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffeeforthewicked.vflLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420EBDF424929FC2001CB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"vflLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = L9R572YACD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = vflLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffeeforthewicked.vflLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		420EBDF624929FC2001CB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9R572YACD;
+				INFOPLIST_FILE = vflLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffeeforthewicked.vflLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vflLogin.app/vflLogin";
+			};
+			name = Debug;
+		};
+		420EBDF724929FC2001CB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9R572YACD;
+				INFOPLIST_FILE = vflLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffeeforthewicked.vflLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vflLogin.app/vflLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420EBDCE24929FBF001CB93A /* Build configuration list for PBXProject "vflLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EBDF024929FC2001CB93A /* Debug */,
+				420EBDF124929FC2001CB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420EBDF224929FC2001CB93A /* Build configuration list for PBXNativeTarget "vflLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EBDF324929FC2001CB93A /* Debug */,
+				420EBDF424929FC2001CB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420EBDF524929FC2001CB93A /* Build configuration list for PBXNativeTarget "vflLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EBDF624929FC2001CB93A /* Debug */,
+				420EBDF724929FC2001CB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420EBDCB24929FBF001CB93A /* Project object */;
+}
